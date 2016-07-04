@@ -14,7 +14,7 @@ app.get('/', function(request, response) {
   response.render('pages/index');
 });
 
-app.get('/sendmail', function(request, response){
+app.post('/sendmail', function(request, response){
   console.log("holaaaa");
   alert("hola");
 });
